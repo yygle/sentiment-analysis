@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>Review for Spiderman</title>
+    </head>
+    
+    <body>
+        <div class=root>
+            <nav><div class='Comp7404' ><img src="img/HKU.jpg"></div>
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>Movie</a></li>
+                    <li><a>Video</a></li>
+                    <li><a>Comics</a></li>
+                    <li><a>Photos</a></li>
+                    <li><a>News</a></li>
+                </ul>
+            </nav>
+
+
+
+
+            <div class='movieBlock'>
+                <div class='movContainer'>
+                <h2 class='movieName' id='movname'>Spider-Man (2002)</h2>
+                <img class='moivePoster' src="img/spiderman2_2002.jpg">
+                </div>
+
+
+            <form action="insertDB.php" class="inputForm" method="post">
+                username
+                <br>
+                <input name="nickname" id='nickname_' value=""><br>
+                <br>
+                User Review<br>
+                <textarea name="comments" id="commentTextArea"></textarea><br>
+
+                <br>
+                <input id="inputBtn" type="button" value="POST" onclick="getAnalysis()">
+                <div id='output'></div>
+                </form>
+            </div>
+        </div> 
+
+        <script>
+            
+            var input = document.getElementById("commentTextArea");
+            input.addEventListener("keyup", function(event) {
+  // Cancel the default action, if needed
+  event.preventDefault();
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Trigger the button element with a click
+    document.getElementById("inputBtn").click();
+      
+  }
+});
+            
+        
+            function getAnalysis(){
+               // alert('your are going to submit ur review');
+                $.ajax({
+                    url: 'insertDB.php',
+                    type: 'POST',
+                    data: {
+                        comments: RelaceDoNot( $('#commentTextArea').val()),
+                        movname: $('#movname').val(),
+                        username: $('#nickname_').val()
+                        
+                    },
+                    error: function(xhr) {
+                      alert('Ajax request 發生錯誤');
+                    },
+                    success: function(response) {
+                        $('#output').html(response);
+                        $('#output').fadeIn();
+
+                    }
+                  });
+            }
+        
+
+        
+            function RelaceDoNot(string)
+            {
+                
+               
+                
+             
+                //string = C_replace(string,'dont','do not');
+                //string = C_replace(string,'don t','do not');
+                //string = C_replace(string,'ddidnon"t','do not');
+                //string = C_replace(string,'don\'t','do not');
+//
+                //string = C_replace(string,'didnt','do not');
+                //string = C_replace(string,'didn t','do not');
+                //string = C_replace(string,'didn"t','do not');
+                //string = C_replace(string,'didn\'t','do not');
+                //
+                //
+                //string = C_replace(string,'havent','have not');
+                //string = C_replace(string,'haven\'t','have not');
+                //string = C_replace(string,'\ve not','have not');
+                //
+                //
+                //string = C_replace(string,'hadnt',    'had not');
+                //string = C_replace(string,'hadn\'t', 'had not');
+                
+                string = C_replace(string, 'n\'t' , ' not');
+             
+                return string;
+            }
+            
+            function C_replace(string,target,output)
+            {
+                
+                while(string.includes(target))
+                {
+                   string = string.replace(target,output);                    
+                }
+                
+                return string;
+            }
+            
+        </script>
+
+    
+    
+
+
+    </body>
+</html>
