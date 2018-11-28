@@ -17,7 +17,7 @@ https://pan.baidu.com/s/1bP0CV3nX4pDAZi0Yrq9tjg
 
 https://pan.baidu.com/s/1NbHHWpFoJY5dFVv9St9ayw
 
-Alternatively, you might use below google links to download:
+Alternatively, you might use below google links to download(HKU account only):
 
 https://drive.google.com/file/d/16cb1jGyXz4jcWRt0woGL85QyNkxGOQYT/view?usp=sharing
 
