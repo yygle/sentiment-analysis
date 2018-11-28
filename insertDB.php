@@ -14,10 +14,15 @@ echo $nickname.', your review : <br>'.$comment.'<br>';
 $path = writeCommand2Txt($comment,$movname);
 
 
-$output = executePython('test_one_sentence.py', $path);
+$output = executePython('test_one_sentence2.py', $path);
 
 insertDB('localhost','root','',$movname,$nickname,$comment, $output);
-print($output);
+echo $output;
+if (strpos($output,"thanks")!==false)
+	echo"<br><img class='outputImg good'  style='width:50px;'  src='./img/good.jpg'> ";
+else 
+	echo"<br><img class='outputImg bad' style='width:50px;transform:rotate(180deg);' src='./img/good.jpg'> ";
+
 
 function insertDB($server, $username, $PW,$movname,$nickname,$comment,$label)
 {
