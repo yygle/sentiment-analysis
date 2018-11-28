@@ -1,5 +1,5 @@
 # sentiment-analysis
-environment:
+Environment:
 
 We start a small project to build a simple system to automatically give labels to comments.
 If you want to use the web part, make sure you add xampp in your pc or some other apache and sql service.
