@@ -13,6 +13,18 @@ https://pan.baidu.com/s/1bP0CV3nX4pDAZi0Yrq9tjg
 
 https://pan.baidu.com/s/1NbHHWpFoJY5dFVv9St9ayw
 
+And there's google link incase you cannot download from baidu:
+
+https://drive.google.com/file/d/16cb1jGyXz4jcWRt0woGL85QyNkxGOQYT/view?usp=sharing
+
+https://drive.google.com/drive/folders/1G3eeNw02bg3HajX-X8lKJEmkp_nk0IR9?usp=sharing
+
+https://drive.google.com/drive/folders/1vBo9H7Uii5UJT7nTqX03uOA1EWPqdwp8?usp=sharing
+
+https://drive.google.com/drive/folders/1QxQ1n0TgZYiFkMOI0Kqh3L3CAMXKNk3z?usp=sharing
+
+https://drive.google.com/file/d/1JI24fp6sNEQqwvZhLip6eZbdpa9ThStc/view?usp=sharing
+
 Before run the project make sure that you download all the files and models.
 
 To start the test: just run the file test_one_sentence.py 
