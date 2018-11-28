@@ -5,7 +5,7 @@ We start a small project to build a simple system to automatically give labels t
 If you want to use the web part, make sure you add xampp in your pc or some other apache and sql service.
 We run the file under linux and win10, with python3.5.2 and tensorflow-gpu1.1
 
-The training data and model is in the hyperlink below.  
+The training data and model is in the hyperlink below :
 
 https://pan.baidu.com/s/1KY_NOifssbJzutGgy96Fvw
 
