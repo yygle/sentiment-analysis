@@ -4,10 +4,15 @@ If you want to use the web part, make sure you add xampp in your pc or some othe
 The training data and model is in the hyperlike below.  
 
 https://pan.baidu.com/s/1KY_NOifssbJzutGgy96Fvw
+
 https://pan.baidu.com/s/1AQjXIvw3JGZ1hMtyiQ7d7Q
+
 https://pan.baidu.com/s/1-iV8gL7RhE8azniOx2G59g
+
 https://pan.baidu.com/s/1bP0CV3nX4pDAZi0Yrq9tjg
+
 https://pan.baidu.com/s/1NbHHWpFoJY5dFVv9St9ayw
+
 Before run the project make sure that you download all the files and models.
 
 To start the test: just run the file test_one_sentence.py 
