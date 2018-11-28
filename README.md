@@ -1,12 +1,12 @@
 # sentiment-analysis
-Environment:
+Introduction and system environment:
+We build a simple system to automatically give labels to comments. 
 
-We start a small project to build a simple system to automatically give labels to comments.
-If you want to use the web part, make sure you add xampp in your pc or some other apache and sql service.
-We run the file under linux and win10, with python3.5.2 and tensorflow-gpu1.1
+We run the file under linux and win10, with python3.5.2 and tensorflow-gpu1.1.
+If you want to run the system using web browser, make sure you add XAMPP in your pc.
 
-The training data and model is in the hyperlink below :
-
+Data and model download
+The training data and model are available on Baidu in the hyperlinks below:
 https://pan.baidu.com/s/1KY_NOifssbJzutGgy96Fvw
 
 https://pan.baidu.com/s/1AQjXIvw3JGZ1hMtyiQ7d7Q
@@ -17,8 +17,7 @@ https://pan.baidu.com/s/1bP0CV3nX4pDAZi0Yrq9tjg
 
 https://pan.baidu.com/s/1NbHHWpFoJY5dFVv9St9ayw
 
-And there's google link in case that you can not download from baidu，
-you can only download it with your HKU account through the website below :
+Alternatively, you might use below google links to download:
 
 https://drive.google.com/file/d/16cb1jGyXz4jcWRt0woGL85QyNkxGOQYT/view?usp=sharing
 
@@ -30,7 +29,7 @@ https://drive.google.com/drive/folders/1QxQ1n0TgZYiFkMOI0Kqh3L3CAMXKNk3z?usp=sha
 
 https://drive.google.com/file/d/1JI24fp6sNEQqwvZhLip6eZbdpa9ThStc/view?usp=sharing
 
-Before run the project make sure that you download all the files and models.
+Before you run the project, please make sure that you have downloaded all the files and models.
 
 To start the test: just run the file test_one_sentence.py 
 
