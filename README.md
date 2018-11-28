@@ -39,8 +39,12 @@ C.Instruction to start the testing:
 * “test_short_sentence.py” is to test the short sentence within 30 words with another model, because we find that the window length 250 is too long for the short sentence, which means that it will not have a good performance on short sentence.
 
 D.Instruction to train the model by yourself:
+
 python sentiment_analysis.py --isTrainingD2v='True' # to train the D2V part
+
 python sentiment_analysis.py --isTrainingPredModel='True' # to train the sentiment analysis model
+
 You can also train the word2vec model by gensim, and later on I will upload the training file.
+
 In this project, the trained word2vec model is already in training data folder, which means that you can start the test already.
 
