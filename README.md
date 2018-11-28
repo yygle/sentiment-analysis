@@ -17,7 +17,8 @@ https://pan.baidu.com/s/1bP0CV3nX4pDAZi0Yrq9tjg
 
 https://pan.baidu.com/s/1NbHHWpFoJY5dFVv9St9ayw
 
-And there's google link in case that you can not download from baidu:
+And there's google link in case that you can not download from baidu，
+you can only download it with your HKU account through the website below :
 
 https://drive.google.com/file/d/16cb1jGyXz4jcWRt0woGL85QyNkxGOQYT/view?usp=sharing
 
