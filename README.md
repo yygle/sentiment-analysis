@@ -1,7 +1,7 @@
 # sentiment-analysis
 We start a small project to build a simple system to automatically give labels to comments.
 If you want to use the web part, make sure you add xampp in your pc or some other apache and sql service.
-The training data and model is in the hyperlike below.  
+The training data and model is in the hyperlink below.  
 
 https://pan.baidu.com/s/1KY_NOifssbJzutGgy96Fvw
 
