@@ -17,6 +17,8 @@ https://pan.baidu.com/s/1bP0CV3nX4pDAZi0Yrq9tjg
 
 https://pan.baidu.com/s/1NbHHWpFoJY5dFVv9St9ayw
 
+https://pan.baidu.com/s/1pGr5WnTpe-P3EwakhnsLzg
+
 Alternatively, you might use below google links to download(HKU account only):
 https://drive.google.com/file/d/16cb1jGyXz4jcWRt0woGL85QyNkxGOQYT/view?usp=sharing
 
@@ -27,6 +29,8 @@ https://drive.google.com/drive/folders/1vBo9H7Uii5UJT7nTqX03uOA1EWPqdwp8?usp=sha
 https://drive.google.com/drive/folders/1QxQ1n0TgZYiFkMOI0Kqh3L3CAMXKNk3z?usp=sharing
 
 https://drive.google.com/file/d/1JI24fp6sNEQqwvZhLip6eZbdpa9ThStc/view?usp=sharing
+
+https://drive.google.com/file/d/1dC5otbnXBksrFY9LpC5KaGCZuQA9pHHb/view?usp=sharing
 
 Before you run the project, please make sure that you have downloaded all the files and models.
 
